@@ -99,7 +99,8 @@ def main():
       print("Order of Matrix::" + str(A.shape))
       print()
 
-      B = np.random.randint(-10, 10, size=(variable,1))
+      #B = np.random.randint(-10, 10, size=(variable,1))
+      B = np.copy(initial_vector)
       print("VECTOR::")
       print(B)
       print("Order of Vector::" + str(B.shape))
